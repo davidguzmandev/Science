@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>Heroes</title>
+</head>
+<body>
+    <h1>Lista de Cientificos</h1>
+    <ul>
+        <% listaCientificos.forEach(scientist => { %>
+            <li><%= scientist.nombre %></li>
+        <% }); %>
+    </ul>
+</body>
+</html>

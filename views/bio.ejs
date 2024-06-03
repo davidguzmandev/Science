@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>Biografía</title>
+</head>
+<body>
+    <% if (nombre && bio) { %>
+        <h1><%= nombre %></h1>
+        <p><%= bio %></p>
+    <% } else { %>
+        <h1><%= message %></h1>
+    <% } %>
+</body>
+</html>

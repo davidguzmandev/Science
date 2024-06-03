@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>Detalle</title>
+</head>
+<body>
+    <% if (nombre && profesion) { %>
+        <h1>Hola, mi nombre es <%= nombre %> y soy <%= profesion %>.</h1>
+    <% } else { %>
+        <h1><%= message %></h1>
+    <% } %>
+</body>
+</html>
